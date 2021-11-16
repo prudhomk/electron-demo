@@ -1,9 +1,9 @@
 //defines how application opens on OS
-const path = require('path');
 const { app, BrowserWindow } = require("electron");
+const path = require('path');
 
 function createWindow () {
-  const win = new BrowserWindow({
+  const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
     webPreferences: {
@@ -11,7 +11,7 @@ function createWindow () {
     }
   })
 
-  win.loadFile('index.html');
+ mainWindow.loadFile('index.html');
 }
 
 app.whenReady().then(() => {
