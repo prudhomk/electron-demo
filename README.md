@@ -9,3 +9,5 @@ https://github.com/twitchdev
 https://dev.twitch.tv/docs/extensions/required-technical-background
 
 https://www.electronjs.org/docs/latest/tutorial/quick-start
+
+https://dev.twitch.tv/docs/extensions/rig/
