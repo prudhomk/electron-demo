@@ -1,19 +1,11 @@
 # electron-demo
-const { app, BrowserWindow } = require("electron");
 
-function createWindow () {
-  const win = new BrowserWindow({
-    width: 800,
-    height: 600
-  })
+Links to Docs:
+https://dev.twitch.tv/docs/
+https://dev.twitch.tv/docs/api/reference
+https://dev.twitch.tv/docs/api
+https://www.electronjs.org/
+https://github.com/twitchdev
+https://dev.twitch.tv/docs/extensions/required-technical-background
 
-  win.loadFile('index.html');
-}
-
-app.whenReady().then(() => {
-  createWindow()
-});
-
-app.on('window-all-closed', function () {
-  if(process.platform !== 'darwin') app.quit()
-});
+https://www.electronjs.org/docs/latest/tutorial/quick-start

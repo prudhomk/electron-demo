@@ -1,0 +1,23 @@
+{
+  "name": "electron-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prudhomk/electron-demo.git"
+  },
+  "author": "k and c",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prudhomk/electron-demo/issues"
+  },
+  "homepage": "https://github.com/prudhomk/electron-demo#readme",
+  "devDependencies": {
+    "electron": "^16.0.0"
+  }
+}
